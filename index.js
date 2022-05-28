@@ -84,11 +84,7 @@ async function run() {
             res.send(result);
         });
 
-        app.post('/profile', verifyJWT, async (req, res) => {
-            const profile = req.body;
-            const result = await profileCollection.insertOne(profile);
-            res.send(result);
-        });
+
 
         app.get('/user', verifyJWT, async (req, res) => {
             const users = await userCollection.find().toArray();
