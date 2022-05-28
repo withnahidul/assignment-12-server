@@ -82,13 +82,13 @@ async function run() {
             const service = req.body;
             const result = await serviceCollection.insertOne(service);
             res.send(result);
-          });
+        });
 
         app.post('/profile', verifyJWT, async (req, res) => {
             const profile = req.body;
             const result = await profileCollection.insertOne(profile);
             res.send(result);
-          });
+        });
 
         app.get('/user', verifyJWT, async (req, res) => {
             const users = await userCollection.find().toArray();
@@ -126,7 +126,11 @@ async function run() {
         });
 
         // get all services
-
+        app.get('/available', async (req, res) => {
+            const query = {};
+            const services = await serviceCollection.find(query).toArray();
+            res.send(services);
+        })
 
 
         app.get('/booking', verifyJWT, async (req, res) => {
