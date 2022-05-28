@@ -71,12 +71,7 @@ async function run() {
             res.send(services);
         });
 
-        app.get('/profile/:id', async (req, res) => {
-            const query = {};
-            const cursor = serviceCollection.find(query).project({ name: 1 });
-            const services = await cursor.toArray();
-            res.send(services);
-        });
+
 
         app.post('/service', verifyJWT, verifyAdmin, async (req, res) => {
             const service = req.body;
