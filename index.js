@@ -216,12 +216,7 @@ async function run() {
             res.send(result);
         });
 
-        // app.delete('/booking/:id', verifyJWT, async (req, res) => {
-        //     const id = req.params.id;
-        //     const filter = { _id: id };
-        //     const result = await bookingCollection.deleteOne(filter);
-        //     res.send(result);
-        // })
+
 
     }
     finally {
