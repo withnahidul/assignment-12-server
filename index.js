@@ -126,11 +126,7 @@ async function run() {
         });
 
         // get all services
-        app.get('/available', async (req, res) => {
-            const query = {};
-            const services = await serviceCollection.find(query).toArray();
-            res.send(services);
-        })
+
 
 
         app.get('/booking', verifyJWT, async (req, res) => {
