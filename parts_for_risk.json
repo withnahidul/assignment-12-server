@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Gear Motor",
+      "picture": "https://ibb.co/mS69r0H",
+      "minOrderQuantity": 100,
+      "availableQuantity": 2000,
+      "price": 390880.54,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    },
+    {
+      "name": "Elevator Cabin",
+      "picture": "https://ibb.co/B6r8b1K",
+      "minOrderQuantity": 32,
+      "availableQuantity": 350,
+      "price": 2805000.1,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    },
+    {
+      "name": "LOP and COP",
+      "picture": "https://ibb.co/Z6bs9V1",
+      "minOrderQuantity": 300,
+      "availableQuantity": 4000,
+      "price": 14907.78,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    },
+    {
+      "name": "Controller Module",
+      "picture":"https://ibb.co/3vk4qwb",
+      "minOrderQuantity": 35,
+      "availableQuantity": 303,
+      "price": 269200.85,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    },
+    {
+      "name": "Gearless Motor",
+      "picture": "https://ibb.co/MNCL6Bx",
+      "minOrderQuantity": 30,
+      "availableQuantity": 255,
+      "price": 34900.12,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    },
+    {
+      "name": "Cabin Celing",
+      "picture": "https://ibb.co/nMsYPLV",
+      "minOrderQuantity": 100,
+      "availableQuantity": 3500,
+      "price": 11490.28,
+      "description": "Here will go a short description of each product or inventory. We can change it as per our recommendation."
+    }
+  ]
